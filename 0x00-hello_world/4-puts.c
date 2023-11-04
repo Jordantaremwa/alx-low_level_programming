@@ -1,8 +1,8 @@
 #include	<stdio.h>
 
 /**
- * main	-	prints	out	a	string	to	stdout
- * Redturn:	0	if	success
+ * main	-	this	is	the	main	put	function
+ * Return:	0
  */
 
 
@@ -10,7 +10,7 @@ int	main(void)
 
 {
 
-puts("\"programming	is	like	building	a	multilingual	puzzle");
-return	(0);
+	puts("\"programming	is	like	building	a	multilingual	puzzle");
+	return	(0);
 
 }
