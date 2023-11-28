@@ -7,15 +7,15 @@
  * @age:	the	age	of	the	dog
  * @owner:	the	owner	of	the	dog
  *
- * description:	first	stgruct	with	alx
+ * description:	first	struct	with	alx
  */
 
-struct	dog
+typedef	struct	dog
 {
 	char	*name;
 	float	age;
 	char	*owner;
-};
+}	dog_t;
 
 void init_dog(struct dog *d, char *name, float age, char *owner);
 void print_dog(struct dog *d);
